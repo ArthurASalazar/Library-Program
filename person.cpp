@@ -9,24 +9,30 @@ Person::Person(int cardNo, bool act, string fName, string lName) {
 }
 
 string Person::getFirstName() {
-    return ""; // complete
+    return firstName; // complete
 }
 
 string Person::getLastName() {
-    return ""; // complete
+    return lastName; // complete
 }
 
 int Person::getId() {
-    return 0; // complete
+    return cardID; // complete
 }
 
 void Person::setActive(bool act) {
+  active = act;
 } // complete
-
 bool Person::isActive() {
-    return true; // complete
+    if (cardID = active) {
+      return TRUE;
+  }
+  else{
+    return FALSE;
+  }
+  // complete
 }
 
 string Person::fullName() {
-    return ""; // complete
+    return (firstName + " "+lastName); // complete
 }

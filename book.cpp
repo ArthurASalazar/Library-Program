@@ -9,21 +9,22 @@ Book::Book(int id, string bookName, string auth, string cat) {
 }
 
 string Book::getTitle() {
-    return ""; // complete
+    return title; // complete
 }
 
 string Book::getAuthor() {
-    return ""; // complete
+    return author; // complete
 }
 
 string Book::getCategory() {
-    return ""; // complete
+    return category; // complete
 }
 
 int Book::getId() {
-    return 0; // complete
+    return bookID; // complete
 }
 void Book::setPersonPtr(Person * ptr) {
+  Person * personPtr = nullptr;
 } // complete
 
 Person * Book::getPersonPtr() {
